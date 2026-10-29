@@ -7,20 +7,21 @@ A Data Stream Analytics mini-project demonstrating an end-to-end streaming pipel
 
 ## Dashboard Screenshots
 
-### 1. Equipment fleet overview
-Shows equipment status cards, latest sensor KPIs, anomaly counts, and the start of the telemetry section.
+### Figure 1: Equipment fleet status and latest KPIs
+Equipment status for MOTOR-01, PUMP-02 and COMPRESSOR-03, latest sensor metrics, anomaly count and telemetry section.
 
-![Dashboard overview](screenshots/dashboard-overview.png)
+![Equipment fleet status](screenshots/dashboard-overview.png)
 
-### 2. Real-time sensor telemetry
-Shows temperature, vibration, pressure, RPM, and instantaneous vibration compared with its 10-point rolling average.
+### Figure 2: Real-time sensor telemetry
+Temperature, vibration, pressure and RPM trends, including instantaneous vibration and the 10-point rolling average.
 
-![Sensor telemetry](screenshots/sensor-telemetry.png)
+![Real-time sensor telemetry](screenshots/sensor-telemetry.png)
 
-### 3. Detected anomaly alerts
-Shows recent events flagged by the anomaly detection pipeline, including timestamps, machine IDs, and sensor readings.
+### Figure 3: Detected anomaly alerts
+Anomaly alert table showing timestamps, machine identifiers, sensor values and flagged events.
 
-![Anomaly alerts](screenshots/anomaly-alerts.png)
+![Detected anomaly alerts](screenshots/anomaly-alerts.png)
+
 
 ## Project Architecture
 
