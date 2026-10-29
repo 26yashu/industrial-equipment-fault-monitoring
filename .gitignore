@@ -1,0 +1,39 @@
+# Python Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+.env.local
+
+# Sensitive environment configuration
+.env
+*.env
+!.env.example
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Log files and runtime storage
+*.log
+logs/
+kraft-combined-logs/
+kafka-logs/
+
+# IDE / Editor configuration
+.vscode/
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# OS generated files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Database dumps and temporary backups
+*.sql.gz
+*.bak
+*.tmp
